@@ -4,7 +4,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     --border-color: rgb(203, 203, 203);
     --text-color: rgb(76, 76, 76);
-    --accent:  rgb(0, 42, 89);
+    --accent: rgb(0, 42, 89);
     --white:var(--white)
 }
 body{
