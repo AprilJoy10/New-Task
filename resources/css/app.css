@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --border-color: rgb(203, 203, 203);
+    --text-color: rgb(76, 76, 76);
+}
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+table.tasks{
+    border-collapse: collapse;
+    border: 1px solid var(--border-color);
+}
+table.tasks thead th{
+    color: solid var(--text-color);
+    text-align: left;
+    padding: 1.5rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+}
+table.tasks tbody td{
+    background-color: rgb(0, 42, 89);
+    padding: 1rem 1rem;
+    cursor: pointer;
+}
+table.tasks tbody tr:hover td{
+    background-color: rgb(0, 42, 89);
+    color: white;
+}
