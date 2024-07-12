@@ -9,6 +9,9 @@
 
 <body>
     <div class="main">
+        <div class="actions">
+            <button class="primary button">Add New</button>
+        </div>
         <table class="tasks">
             <thead>
                 <th>Task</th>
