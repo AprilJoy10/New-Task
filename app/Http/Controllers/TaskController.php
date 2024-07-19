@@ -18,4 +18,8 @@ class TaskController extends Controller
         // dd($tasks);
         return view('pages.dashboard')->with('tasks', $tasks);
     }
+
+    public function createTask(Request $request) {
+        return view('pages.form');
+    }
 }

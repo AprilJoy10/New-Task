@@ -3,7 +3,7 @@
 @section('content')
 <div class="main">
         <div class="actions">
-            <button class="primary button">Add New</button>
+            <a class="primary-button" href="/create">Add New</a>
         </div>
         <table class="tasks">
             <thead>
