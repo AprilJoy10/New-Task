@@ -1,0 +1,29 @@
+table.tasks {
+    border-collapse: collapse;
+    border: 1px solid var(--border-color);
+
+    thead {
+        th {
+            color: $text-color;
+            text-align: left;
+            padding: 1.5rem 1rem;
+        }
+    }
+    tbody {
+        td {
+            color: $text-color;
+            padding: 1rem 1rem;
+            border-bottom: 1px solid $border-color;
+            cursor: pointer;
+            transition: all 0.2s ease-in-out;
+        }
+        tr {
+            &:hover {
+                td {
+                    background-color: $accent;
+                    color: $white;
+                }
+            }
+        }
+    }
+}

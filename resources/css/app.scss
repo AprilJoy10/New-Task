@@ -1,0 +1,43 @@
+@import 'variables'
+
+
+* {
+    margin: 0;
+    box-sizing: $border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    height: 30rem;
+    max-height: 40rem;
+    overflow: auto;
+}
+
+.actions{
+    display: flex;
+    padding: 1rem 0;
+}
+.primary-button{
+    padding: 0.5rem 1rem;
+    background-color: $accent;
+    border: 1px solid $accent;
+    color: $white;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+}
+.primary-button.hover{
+    border: 1px solid $accent;
+    background-color: $white;
+    color: $accent;
+}
