@@ -1,4 +1,7 @@
-@import 'variables'
+@import "variables";
+@import "components/table";
+@import "components/textbox";
+@import "components/buttons";
 
 
 * {
@@ -21,7 +24,12 @@ body{
     height: 30rem;
     max-height: 40rem;
     overflow: auto;
+    form{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
 
 .actions{
     display: flex;

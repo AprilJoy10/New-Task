@@ -8,4 +8,5 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/',[TaskController::class,'tasklist']);
-Route::get('create', [TaskController::class, 'createTask']);
+Route::get('/create', [TaskController::class, 'createTask']);
+Route::post('/save', [TaskController::class, 'saveTask']);

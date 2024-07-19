@@ -1,0 +1,16 @@
+.form-button {
+    background-color: $accent;
+    width: fit-content;
+    padding: 0.5rem 1rem;
+    color: $white;
+    font-size: 1rem;
+    border: 1px solid $accent;
+    align-self: end;
+    margin-top: 1rem;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    &:hover {
+        background-color: $white;
+        color: $accent;
+    }
+}

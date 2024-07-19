@@ -22,4 +22,15 @@ class TaskController extends Controller
     public function createTask(Request $request) {
         return view('pages.form');
     }
+
+    public function saveTask(Request $request) {
+        $task = Task::create([
+            'task' => $request-> task,
+            'datetime_start'=> $request->datetime_start,
+            'datetime_end' => $request->datetime_end,
+            'note' => $request->note,
+            'created_by'=>'April',
+
+        ]);
+    }
 }
