@@ -12,7 +12,7 @@ class Task extends Model
     protected $fillable = [
         'task',
         'datetime_start',
-        'datetimestart',
+        'datetime_end',
         'note',
         'created_by',
 

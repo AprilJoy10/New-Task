@@ -1,7 +1,6 @@
 @extends('app')
-@section('title', 'app')
+@section('title', 'Dashboard')
 @section('content')
-<div class="main">
 <div class="main">
         <div class="actions">
             <button class="primary button">Add New</button>

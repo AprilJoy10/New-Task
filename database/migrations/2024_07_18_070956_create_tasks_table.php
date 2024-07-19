@@ -14,10 +14,10 @@ return new class extends Migration
         Schema::create('tasks', function (Blueprint $table) {
             $table->id();
             $table->string('task');
-            $table->timestamp('datetimestart')->nullable();
+            $table->timestamp('datetime_start')->nullable();
             $table->timestamp('datetime_end')->nullable();
             $table->text('note')->nullable();
-            $table->string('created by');
+            $table->string('created_by');
             $table->timestamps();
 
         });
